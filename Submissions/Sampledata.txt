@@ -1,0 +1,33 @@
+📌 SAMPLE DATA OVERVIEW
+
+👤 Admin:
+   username: admin
+   password: admin123
+
+👨‍🏫 Instructor:
+   username: instructor1
+   
+   password: inst123
+
+👨‍🎓 Students:
+   student1 → usename-shabd, password = 2024333
+   student2 → username= krish, password = 2024304
+
+   # There are many more students bur we havw added just two.....
+
+📘 Courses:
+| Name          | Code   | Instructor id(username)          | Capacity |
+|---------------|--------|----------------------------|----------|
+| Database Sys  | CS301  | instructor1                | 40       |
+| Operating Sys | CS302  | instructor1                | 40       |
+
+📜 Enrollment Sample:
+| student_roll_no | course_code |
+|------------------|------------|
+| 2024333          | CS301      |
+| 2024304          | CS301      |
+
+📊 Grades (initial):
+| roll_no | course_code | Quiz | Assign | Midsem | Endsem |
+|---------|------------|------|--------|--------|--------|
+| 2024333  | CS301      | 10   | 20     | 25     | 30     |

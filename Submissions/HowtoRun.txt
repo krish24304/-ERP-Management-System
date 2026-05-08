@@ -1,0 +1,34 @@
+University ERP System - How to Run
+
+🔹 Requirements:
+   - Java JDK 17+
+   - Maven Installed
+   - MySQL Database Running (XAMPP OR MySQL Server)
+
+🔹 Steps to Run:
+1. Import project folder in IntelliJ / Eclipse / NetBeans.
+2. Update database credentials in:
+   ➤ src/main/java/edu/univ/erp/data/DBConnection.java
+
+   host = "jdbc:mysql://localhost:3307/erp";
+   user = "root";
+   password = "root";
+
+3. Open Terminal in project root → Run:
+   mvn clean install
+   mvn exec:java
+
+4. App will launch with Login screen.
+
+🔹 Login Credentials (sample data):
+   ROLE      USERNAME          PASSWORD
+   --------------------------------------
+   Admin         admin             admin123
+   Instructor   instructor1      inst123
+   Instructor2  instructor2     inst123
+   Shabd         shabd           2024333
+   Krish          krish          2024304
+
+🔹 Troubleshooting:
+ - If database errors occur → import database.sql (provided).
+ - If Maven fails → right click project → Maven → Reimport.

@@ -1,0 +1,19 @@
+🧪 TEST PLAN
+
+Test Case | Action | Expected Result
+--------------------------------------------------------------
+1 | Student logs in with valid credentials | Dashboard opens
+2 | Wrong password | Error: incorrect credentials
+3 | Register course | Successful if seat available
+4 | Duplicate registration | Show: already enrolled
+5 | Maintenance ON → try to register | Show: changes disabled
+6 | Instructor updates grade | Grade updates in table
+7 | Admin deletes course | Course removed from list
+8 | Instructor exports the course report| grade sheet is stored in csv format in reports
+
+🗂 Test Data:
+Use sample data from Sample_Data.txt.
+
+✔ Maintenance Mode Test Summary:
+- All update actions (insert, delete, update grade) are BLOCKED.
+- All view-only actions (view courses, view grades) WORK FINE.
